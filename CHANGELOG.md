@@ -2,6 +2,21 @@
 
 All notable changes to `filament-fabricator` will be documented in this file.
 
+## v2.5 - 2025-03-04
+
+### What's Changed
+
+* build(deps): bump dependabot/fetch-metadata from 2.2.0 to 2.3.0 by @dependabot in https://github.com/Z3d0X/filament-fabricator/pull/210
+* build(deps): bump aglipanci/laravel-pint-action from 2.4 to 2.5 by @dependabot in https://github.com/Z3d0X/filament-fabricator/pull/211
+* Laravel 12.x Compatibility by @laravel-shift in https://github.com/Z3d0X/filament-fabricator/pull/216
+* Null Page Reference in FilamentFabricator Block Preloading by @rsandipermana in https://github.com/Z3d0X/filament-fabricator/pull/214
+
+### New Contributors
+
+* @rsandipermana made their first contribution in https://github.com/Z3d0X/filament-fabricator/pull/214
+
+**Full Changelog**: https://github.com/Z3d0X/filament-fabricator/compare/v2.4.3...v2.5
+
 ## v2.4.3 - 2025-01-22
 
 ### What's Changed
