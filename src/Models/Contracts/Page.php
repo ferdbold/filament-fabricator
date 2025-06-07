@@ -4,7 +4,7 @@ namespace Z3d0X\FilamentFabricator\Models\Contracts;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOneOrMany;
 use Illuminate\Support\Carbon;
 
 /**
@@ -24,9 +24,9 @@ interface Page extends HasPageUrls
 {
     public function parent(): BelongsTo;
 
-    public function children(): HasMany;
+    public function children(): HasOneOrMany;
 
-    public function allChildren(): HasMany;
+    public function allChildren(): HasOneOrMany;
 
     /** @return \Illuminate\Database\Eloquent\Builder */
     public static function query();
