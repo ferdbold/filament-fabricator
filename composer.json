@@ -1,17 +1,23 @@
 {
-    "name": "z3d0x/filament-fabricator",
+    "name": "ferdbold/filament-fabricator",
     "description": "Block-Based Page Builder Skeleton for your Filament Apps",
     "keywords": [
         "Z3d0X",
+        "ferdbold",
         "laravel",
         "filament-fabricator"
     ],
-    "homepage": "https://github.com/z3d0x/filament-fabricator",
+    "homepage": "https://github.com/ferdbold/filament-fabricator",
     "license": "MIT",
     "authors": [
         {
             "name": "Ziyaan Hassan",
             "email": "ziyaan2010@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Fred Bolduc",
+            "email": "me@fredbolduc.ca",
             "role": "Developer"
         }
     ],
